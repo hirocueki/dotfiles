@@ -1,0 +1,25 @@
+snippet u
+        use strict;
+        use warnings;
+        use utf8;
+
+snippet d
+        use Data::Dump qw/dump/;
+
+snippet c
+        use Carp qw/croak/;
+
+snippet n
+        sub new {
+                my $class = shift;
+                my $args = ref $_[0] ? $_[0] : +{@_};
+
+                ${1:code}
+
+                bless $args, $class;
+        }
+                
+snippet s
+        subtest '${1:testname}' => sub {
+                ${2:testbody}
+        };
