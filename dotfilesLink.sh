@@ -1,7 +1,7 @@
 #! /bin/bash
 
-# シンボリックリンクを張るようなシェルスクリプトを書く
-# .gitが入らないようしたいのでgrep -v 'dotfiles/.git$'
-for file in `find $HOME/dotfiles -name '.*' | grep -v 'dotfiles/.git$' | perl -nle 'm!dotfiles/(.+)$! and print $1'`; do
-	    ln -s $HOME/dotfiles/$file $HOME/$file
-done
+ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.vim ~/.vim
+ln -s ~/dotfiles/.zshrc ~/.zshrc
