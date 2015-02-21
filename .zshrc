@@ -16,9 +16,6 @@ export PERL5OPT=-Mlib=extlib/lib/perl5
 source ~/perl5/perlbrew/etc/bashrc
 
 
-alias sshposi='ssh v0s3j8s9jd@v0s3j8s9jd.sakura.ne.jp'
-alias sshaok='ssh aok-net@aok-net.sakura.ne.jp'
-
 # -------------------------------------
 # zshのオプション
 # -------------------------------------
