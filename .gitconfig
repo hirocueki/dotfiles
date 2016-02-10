@@ -4,3 +4,7 @@
 [core]
 	editor = vi
     	excludesfile = ~/.gitignore_global
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true

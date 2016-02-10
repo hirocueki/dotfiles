@@ -1,3 +1,9 @@
+" # 2016/02/11
+set tabstop=2
+set autoindent
+set expandtab
+set shiftwidth=2
+
 " ファイル形式の検出を無効にする
 filetype off
 syntax on

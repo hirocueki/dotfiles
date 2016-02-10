@@ -171,18 +171,8 @@ function title {
 
 
 
+# オートコレクトの確認メッセージを抑制する
+alias bundle='nocorrect bundle'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
